@@ -1,1 +1,49 @@
 @import '~node_modules/modern-normalize/modern-normalize.css';
+.search-form {
+  position: sticky;
+  top: 0;
+  align-items: center;
+  padding: 20px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  background-color: #6c5d5d;
+  border-bottom: 2px solid #212121;
+}
+.search-form > input {
+  width: 400px;
+  height: 26px;
+  padding-left: 20px;
+}
+.search-form > button {
+  height: 26px;
+}
+.search-form > button:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.gallery {
+  padding: 20px;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.gallery img {
+  width: 260px;
+  height: 160px;
+}
+
+.btn-wrapper {
+  display: flex;
+  justify-content: center;
+  background-color: #6c5d5d;
+  border-top: 2px solid #212121;
+  padding: 10px;
+}
+.not-visible {
+  display: none;
+}
+.btn-wrapper > button:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
