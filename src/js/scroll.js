@@ -11,7 +11,6 @@ const refs = {
 
 let query;
 let page = 1;
-refs.addMoreWrapper.classList.add('is-hidden');
 
 const onFormSubmit = async e => {
   e.preventDefault();

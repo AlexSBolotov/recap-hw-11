@@ -1,4 +1,30 @@
 @import '~node_modules/modern-normalize/modern-normalize.css';
+
+.nav-links {
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding-top: 40px;
+}
+.nav-links > a {
+  display: block;
+  width: 90px;
+  height: 36px;
+  border: 1px solid #212121;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+.nav-links > a:hover {
+  text-decoration: underline;
+  box-shadow: 0 0 3px 0 #212121;
+}
+
 .go-home {
   position: absolute;
   top: 20px;
